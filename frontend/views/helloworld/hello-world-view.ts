@@ -12,7 +12,7 @@ export class HelloWorldView extends LitElement {
   }
 
   render() {
-    return html`<vaadin-text-field id="name" label="Your name"></vaadin-text-field>
+    return html`<vaadin-text-field id="name" label="Your name please sir"></vaadin-text-field>
       <vaadin-button id="sayHello">Say hello</vaadin-button>`;
   }
 }

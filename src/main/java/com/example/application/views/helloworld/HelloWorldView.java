@@ -33,7 +33,7 @@ public class HelloWorldView extends LitTemplate {
 
     public HelloWorldView() {
         sayHello.addClickListener(e -> {
-            Notification.show("Hello " + name.getValue());
+            Notification.show("Hello Updated " + name.getValue());
         });
     }
 }
